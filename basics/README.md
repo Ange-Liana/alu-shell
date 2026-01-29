@@ -9,4 +9,4 @@ script 8 adds betty file to /tmp/my_first_directory
 script 9 deletes betty from /tmp/my_first_directory
 script 10 deletes my_first_directory
 script 11 changes the working directory to the previous one
-
+Script 12 display all detailed contents of the CWD, its parent and /boot
