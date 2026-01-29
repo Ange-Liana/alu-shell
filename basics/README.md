@@ -12,3 +12,5 @@ script 11 changes the working directory to the previous one
 Script 12 display all detailed contents of the CWD, its parent and /boot
 Script 13 prints the file type
 script 14 creates a symbolic link in /bin/ls
+script 15 copies all new and update html file from CWD to PD
+
