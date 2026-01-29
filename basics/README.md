@@ -8,3 +8,5 @@ script 7 cretare a new directory in tmp/
 script 8 adds betty file to /tmp/my_first_directory
 script 9 deletes betty from /tmp/my_first_directory
 script 10 deletes my_first_directory
+script 11 changes the working directory to the previous one
+
