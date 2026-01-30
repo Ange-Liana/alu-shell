@@ -22,3 +22,4 @@ script 21 removes all letters c and C from input.
 script 22  reverses its input.
 script 23 displays all users and their home directories, sorted by users
 script 24 finds all empty files and directories in the current directory and all sub-directories.
+script 25 lists all the files with a .gif extension in the current directory and all its sub-directories
