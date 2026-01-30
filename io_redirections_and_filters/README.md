@@ -20,4 +20,5 @@ script 19 displays all lines of the file /etc/ssh/sshd_config starting with a le
 script 20 replaces all characters A and c from input to Z and e respectively.
 script 21 removes all letters c and C from input.
 script 22  reverses its input.
-script 23 displays all users and their home directories, sorted by users.
+script 23 displays all users and their home directories, sorted by users
+script 24 finds all empty files and directories in the current directory and all sub-directories.
