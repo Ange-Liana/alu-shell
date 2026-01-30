@@ -5,3 +5,4 @@ script 4 displays the content of /etc/passwd and /etc/hosts
 script 5 display  the last ten lines of /etc/passwd
 script 6 displays the first 10 lines of /etc/passwd
 script 7 displays the third line of the file iacta
+script 8 creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
