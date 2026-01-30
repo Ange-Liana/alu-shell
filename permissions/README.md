@@ -8,3 +8,4 @@ script 7 adds execute permission to the owner and the group owner, and read perm
 SCRIPT 8 script that adds execution permission to the owner, the group owner and the other users, to the file hello
 script 9 give no permissions for users and group but all for others
 script 10 giving -rwxr-x-wx permission to hello
+script 11 copies olleh's permissions to hello
