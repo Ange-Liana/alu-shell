@@ -10,3 +10,4 @@ script 9 give no permissions for users and group but all for others
 script 10 giving -rwxr-x-wx permission to hello
 script 11 copies olleh's permissions to hello
 script 12 gives all CWD files the  execute permission to everyone
+script 13 create a directory and gives it permissions
