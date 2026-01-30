@@ -11,4 +11,5 @@ script 10 duplicates the last line of the file iacta
 script 11 deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
 script 12 counts the number of directories and sub-directories in the current directory.
 script 13 displays the 10 newest files in the current directory.
-script 14 takes a list of words as input and prints only words that appear exactly once. 
+script 14 takes a list of words as input and prints only words that appear exactly once.
+script 15 displays lines containing the pattern “root” from the file /etc/passwd 
