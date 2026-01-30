@@ -6,3 +6,4 @@ script 5 creates an empty file named hello
 script 6 adds execute permission to the owner of the file hello
 script 7 adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 SCRIPT 8 script that adds execution permission to the owner, the group owner and the other users, to the file hello
+script 9 give no permissions for users and group but all for others
