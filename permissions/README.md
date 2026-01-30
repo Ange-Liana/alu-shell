@@ -12,3 +12,4 @@ script 11 copies olleh's permissions to hello
 script 12 gives all CWD files the  execute permission to everyone
 script 13 create a directory and gives it permissions
 scrit 14 changes the group owner of the file hello to school
+script 15  changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
