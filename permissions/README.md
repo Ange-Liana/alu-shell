@@ -14,4 +14,4 @@ script 13 create a directory and gives it permissions
 scrit 14 changes the group owner of the file hello to school
 script 15  changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 script 16 changes the owner and the group owner of _hello to vincent and staff
-script 17 changes the owner of the file hello to vincent only if it is owned by the user guillaume
+script 17 changes the name to vincent only if its was guillaume
