@@ -17,3 +17,4 @@ script 16 display the number of lines that contain the pattern “bin” in the 
 script 18 displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 script 19 displays all the lines in the file /etc/passwd that do not contain the pattern “bin” 
 script 19 displays all lines of the file /etc/ssh/sshd_config starting with a letter
+script 20 replaces all characters A and c from input to Z and e respectively.
