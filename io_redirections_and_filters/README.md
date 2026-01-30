@@ -19,3 +19,4 @@ script 19 displays all the lines in the file /etc/passwd that do not contain the
 script 19 displays all lines of the file /etc/ssh/sshd_config starting with a letter
 script 20 replaces all characters A and c from input to Z and e respectively.
 script 21 removes all letters c and C from input.
+script 22  reverses its input.
