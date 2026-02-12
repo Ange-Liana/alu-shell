@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays time for 12 hours and 59 minutes using nested while loops, first 70 lines only
+# This script displays the clock
 
 hour=0
 
