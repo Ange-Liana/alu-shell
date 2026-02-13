@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays visitor IP addresses and HTTP status codes from Apache access logs
+# Display visitor IP and HTTP status code from Apache logs using awk
 
 awk '{ print $1, $9 }' apache-access.log
 
