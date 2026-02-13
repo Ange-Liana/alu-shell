@@ -2,38 +2,27 @@
 # Init script to start, stop, or restart manage_my_process
 
 PIDFILE="/var/run/my_process.pid"
-SCRIPT="$(pwd)/manage_my_process"  # Full path to avoid issues
+SCRIPT="./manage_my_process"
 
 case "$1" in
   start)
-    if [ -f "$PIDFILE" ] && kill -0 "$(cat "$PIDFILE")" 2>/dev/null; then
-      echo "manage_my_process already running"
-    else
-      $SCRIPT &
-      echo $! > "$PIDFILE"
-      echo "manage_my_process started"
-    fi
+    # Start the process in the background and save its PID
+    $SCRIPT &
+    echo $! > "$PIDFILE"
+    echo "manage_my_process started"
     ;;
   stop)
+    # Stop the process using the PID and remove the PID file
     if [ -f "$PIDFILE" ]; then
-      PID=$(cat "$PIDFILE")
-      if kill -0 "$PID" 2>/dev/null; then
-        kill "$PID"
-        echo "manage_my_process stopped"
-      else
-        echo "Process not running"
-      fi
+      kill "$(cat "$PIDFILE")"
       rm -f "$PIDFILE"
-    else
-      echo "manage_my_process not running"
     fi
+    echo "manage_my_process stopped"
     ;;
   restart)
+    # Stop and start again
     if [ -f "$PIDFILE" ]; then
-      PID=$(cat "$PIDFILE")
-      if kill -0 "$PID" 2>/dev/null; then
-        kill "$PID"
-      fi
+      kill "$(cat "$PIDFILE")"
       rm -f "$PIDFILE"
     fi
     $SCRIPT &
@@ -44,4 +33,5 @@ case "$1" in
     echo "Usage: manage_my_process {start|stop|restart}"
     ;;
 esac
+
 
